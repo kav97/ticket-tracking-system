@@ -1,0 +1,16 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.tickets {
+    color: $text-color;
+    font-size: 2rem;
+    background-color: $ticket-color;
+    border-radius: 10px;
+    border: solid 1px $accent-color;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}

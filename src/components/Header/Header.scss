@@ -1,0 +1,8 @@
+@use "../../assets/sass/variables" as *;
+
+.title {
+  font-size: 2.5rem;
+  color: $text-color;
+  text-align: center;
+  margin: 20px 0;
+}
